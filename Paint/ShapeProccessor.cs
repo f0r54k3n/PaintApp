@@ -35,7 +35,6 @@ namespace Paint
                 DrawPanel.Children.Add(myShape);
                 //Add Shape to the shape list
                 ShapeList.Add(myShape);
-              
             }
 
             catch (Exception ex) { MessageBox.Show(ex.ToString()); }

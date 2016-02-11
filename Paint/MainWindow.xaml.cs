@@ -25,6 +25,8 @@ namespace Paint
         ShapeProccessor ShapeProcessor = new ShapeProccessor();
         //isDraggable
         bool isDraggable = false;
+        //draggingElement variable
+        UIElement draggingElement = new UIElement();
 
         #endregion
 
@@ -36,6 +38,8 @@ namespace Paint
         private void button_Click(object sender, RoutedEventArgs e)
         {
             ShapeProcessor.DrawElli(DrawCanvas);
+            
+            
         }
 
 
@@ -66,34 +70,37 @@ namespace Paint
         private void DrawCanvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             isDraggable = true;
-            
+            //UIElement draggingElement = Mouse.DirectlyOver as Shape;
+            //MessageBox.Show(draggingElement.ToString());
+
         }
 
         private void DrawCanvas_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             isDraggable = false;
+            MessageBox.Show(draggingElement.ToString());
         }
 
         private void DrawCanvas_MouseMove(object sender, MouseEventArgs e)
         {
             try
             {
-               
-                if (isDraggable)
+                draggingElement = Mouse.DirectlyOver as UIElement;
+                if (isDraggable && draggingElement.GetType() == typeof(Ellipse))
                 {
-                    Point mousepos = e.GetPosition((UIElement)sender);
-                    Canvas.SetTop(ShapeProcessor.ShapeList[0], mousepos.Y);
-                    Canvas.SetLeft(ShapeProcessor.ShapeList[0], mousepos.X);
+                    Point mousepos = e.GetPosition(DrawCanvas);
+                    
+                    Canvas.SetTop(draggingElement, mousepos.Y - 85);
+                    Canvas.SetLeft(draggingElement, mousepos.X - 85);
                     
                 }
-
-
-
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message.ToString());
             }
+
+
         }
     }
 }
