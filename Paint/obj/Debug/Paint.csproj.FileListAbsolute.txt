@@ -1,0 +1,14 @@
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\bin\Debug\Paint.exe.config
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\bin\Debug\Paint.exe
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\bin\Debug\Paint.pdb
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\Paint.csprojResolveAssemblyReference.cache
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\MainWindow.g.cs
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\App.g.cs
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\Paint_MarkupCompile.cache
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\Paint_MarkupCompile.lref
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\MainWindow.baml
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\Paint.g.resources
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\Paint.Properties.Resources.resources
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\Paint.csproj.GenerateResource.Cache
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\Paint.exe
+c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\Paint.pdb
