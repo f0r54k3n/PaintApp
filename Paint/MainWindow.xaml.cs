@@ -55,7 +55,7 @@ namespace Paint
         /// Disable dragging
         /// </summary>
         /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// 
         private void MainForm_MouseDown(object sender, MouseButtonEventArgs e)
         {
             isDraggable = true;
