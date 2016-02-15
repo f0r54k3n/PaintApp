@@ -12,3 +12,6 @@ c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\Paint
 c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\Paint.csproj.GenerateResource.Cache
 c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\Paint.exe
 c:\users\loras\documents\visual studio 2015\Projects\Paint\Paint\obj\Debug\Paint.pdb
+C:\Users\F0R54K3N\Documents\GitHub\PaintApp\Paint\bin\Debug\Paint.exe.config
+C:\Users\F0R54K3N\Documents\GitHub\PaintApp\Paint\obj\Debug\Paint.exe
+C:\Users\F0R54K3N\Documents\GitHub\PaintApp\Paint\obj\Debug\Paint.pdb

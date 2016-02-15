@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace Paint
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MainWindow.xamlz
     /// </summary>
     public partial class MainWindow : Window
     {
